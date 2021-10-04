@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Aladin&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: #141414;
+	color: #FFFFFF;
+}
+
+html{
+	font-size: 62.5%;
+	font-family: 'Aladin', cursive;
+	background-color: #141414;
+}
+
+body{
+	margin: 20px !important;
+}
+
+a{
+	text-decoration: none !important;
+
+
+}
+
+li{
+	list-style: none;
+}
+
+
+
+/* main */
+
+nav{
+	font-size: 1.4rem;
+}
+
+.main-head .logo{
+	width: 20%;
+}
+
+.navigation {
+
+}
+
+.browse {
+	display: flex;
+	width: 800px;
+}
+
+.search {
+	display: flex;
+	width: auto;
+}
+
+.search-box{
+	background-color: #000000;
+	opacity: 0.6;
+	border-radius: 24px;
+	width: auto;
+	margin-left: 5px;
+}
+
+.search-box svg {
+	background-color: #000000;
+	opacity: 0.6;
+}
+
+
+
+.search-box input{
+	height: 15px;
+	outline: none;
+	offset: none;
+	border: none;
+	background-color: #000000;
+	margin-left: 10px;
+}
+
+.discover-active {
+	background-color: #0080F6;
+	border-radius: 12px;
+	margin-right: 10px;
+}
+
+
+/* navigator-menu */
+.navigator-menu{
+	margin-top: 2.5rem !important;
+
+}
+
+.fixed-menu {
+	position: fixed;
+}
+
+.navigator-menu li{
+	font-size: 1.4rem;
+	margin: 20px 20px 0px 0px;
+	padding-top: 0.5rem;
+	padding-left: ;
+}
+
+.navigator-menu li img{
+	padding: .4rem 0.4rem .8rem 2rem;
+}
+
+.navigator-menu .active-store{
+	background-color: #2F2F2F;
+	opacity: 1;
+	border-radius: 12px;
+}
+
+.bottom-list {
+	margin-top: 8rem;
+}
+
+/* cover page */
+.cover-book{
+	position: relative;
+	margin-top: 20px;
+	height: 70vh;
+	background-image: url('images/cover.jpg');
+	background-size: cover;
+	background-color: transparent;
+	border-radius: 5px;
+}
+
+.cover-book::after{
+	content: "E-Book Junction";
+	font-size: 2rem;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+
+.cover-book .search-books{
+	position: absolute;
+	border: none;
+	outline: none;
+	background-color: #0080F6 ;
+	padding: 8px;
+	border-radius: 10px;
+	bottom: 30px;
+	left: 20px;
+	font-size: 1.4rem;
+}
+
+.cover-book p {
+	position: absolute;
+	background-color: transparent;
+	font-size: 1.6rem;
+	bottom: 80px;
+	left: 20px;
+}
+
+.right-cover{
+	margin-top: 20px;
+
+}
+
+.mini-cover{
+	background-color: #2F2F2F;
+	padding: 10px 10px;
+	/* border-radius: 12px 12px 0 0px; */
+}
+
+.mini-cover img{
+	width: 60px;
+	height: 68px;
+}
+
+.mini-cover span {
+	font-size: 1.4rem;
+	background-color: transparent;
+}
+
+
+
+/* book slider */
+.book-slider,
+.book-slider-2{
+	width: 100%;
+	margin-top: 5rem;
+}
+
+.book-slider .book-item,
+.book-slider-2 .book-item {
+	width: 25%;
+}
+
+
+.book-slider .book-item img,
+.book-slider-2 .book-item img  {
+	height: 400px;
+	width: 100%;
+	outline: none;
+	border: none;
+}
+
+.book-slider .book-item p,
+.book-slider-2 .book-item p{
+	font-size: 1.4rem;
+	padding-left: 0.4rem;
+}
+
+.slider button  {
+	background-color: transparent;
+	color: #fff;
+}
+
+.book-slider .book-item p strike,
+.book-slider-2 .book-item p strike{
+	color: #fff;
+	opacity: 0.4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
