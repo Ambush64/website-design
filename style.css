@@ -116,7 +116,8 @@ nav{
 	padding: .4rem 0.4rem .8rem 2rem;
 }
 
-.navigator-menu .active-selection{
+.navigator-menu .active-selection,
+.navigator-menu .active-selection-store{
 	background-color: #2F2F2F;
 	opacity: 1;
 	border-radius: 12px;
