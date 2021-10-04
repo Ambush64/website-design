@@ -54,6 +54,11 @@ nav{
 	width: auto;
 }
 
+.cart{
+	text-align: end;
+	width: 250px;
+}
+
 .search-box{
 	background-color: #000000;
 	opacity: 0.6;
@@ -83,6 +88,11 @@ nav{
 	border-radius: 12px;
 	margin-right: 10px;
 }
+.search-active {
+	background-color: #0080F6;
+	border-radius: 12px;
+	margin-right: 10px;
+}
 
 
 /* navigator-menu */
@@ -106,7 +116,7 @@ nav{
 	padding: .4rem 0.4rem .8rem 2rem;
 }
 
-.navigator-menu .active-store{
+.navigator-menu .active-selection{
 	background-color: #2F2F2F;
 	opacity: 1;
 	border-radius: 12px;
@@ -216,17 +226,56 @@ nav{
 	opacity: 0.4;
 }
 
+/* library styling */
+
+/* search box */
+
+.main-search{
+	background-color: #000000;
+	opacity: 0.6;
+	border-radius: 24px;
+	width: 600px;
+	margin: auto;
+	/* margin-left: 5px; */
+	outline: none;
+	offset: none;
+	border: none;
+	height: 4rem;
+	padding: 0px 10px 0px 10px;
+	margin-top: 3rem;
+	font-size: 1.4rem;
+}
 
 
+.main-search::placeholder,
+.main-search::-webkit-input-placeholder{
+	color: #ffffff;
+	opacity: 1;
+	font-size: 1.4rem;
+}
+
+.main-search-box{
+	width: 100%;
+	text-align: center;
+}
+
+.main-search-box button{
+	outline: none;
+	border: none;
+}
+
+.book-items img{
+	height: 250px;
+}
+
+.book-items p{
+	font-size: 1.4rem;
+}
 
 
-
-
-
-
-
-
-
+.card{
+	background-color: transparent !important;
+}
 
 
 
