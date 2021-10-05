@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Aladin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
 
 *{
 	margin: 0;
@@ -10,13 +11,14 @@
 
 html{
 	font-size: 62.5%;
-	font-family: 'Aladin', cursive;
 	background-color: #141414;
 }
 
 body{
 	margin: 20px !important;
+	font-family: 'PT Sans', sans-serif !important;
 }
+
 
 a{
 	text-decoration: none !important;
@@ -339,14 +341,42 @@ nav{
 
 
 
+/* chat */
+.chat-box{
+	position: absolute;
+}
 
+.chat-2{
+	position: relative;
+	top: 80px;
+}
 
+.chat img,.chat-2 img{
+	width: 40px;
+	border-radius: 50%;
+}
 
+.chat p,.chat-2 p{
+	font-size: 1.4rem;
+}
 
+.chat .online,.chat-2 .online{
+	position: relative;
+	width: 10px;
+	height: 10px;
+}
 
-
-
-
+.chat::after,.chat-2::after{
+	content: "";  
+	position: absolute;
+	background: url('images/green.png');
+	bottom:  5px;
+	left: 40px;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	z-index: 100;
+}
 
 
 
