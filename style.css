@@ -283,7 +283,7 @@ nav{
 
 
 /* checkout styling */
-.search span svg {
+.search .cartcheckout svg {
 	background-color: #0080F6;
 	border-radius: 12px;
 	padding: 1px;
