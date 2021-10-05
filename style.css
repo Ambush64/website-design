@@ -83,11 +83,14 @@ nav{
 	margin-left: 10px;
 }
 
-.discover-active {
+.discover-active{
 	background-color: #0080F6;
 	border-radius: 12px;
 	margin-right: 10px;
 }
+
+
+
 .search-active {
 	background-color: #0080F6;
 	border-radius: 12px;
@@ -277,6 +280,67 @@ nav{
 .card{
 	background-color: transparent !important;
 }
+
+
+/* checkout styling */
+.search span svg {
+	background-color: #0080F6;
+	border-radius: 12px;
+	padding: 1px;
+	width: 25px;
+	height: 15px;
+
+}
+
+.current-cart{
+	position: relative;
+}
+
+.current-cart img {
+	width: 175px;
+	height: 175px;
+}
+
+.current-cart p {
+	font-size: 2rem;
+	padding-left: 1rem;
+}
+
+.current-cart .cart-price{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	font-size: 2rem;
+}
+
+.cart-price span{
+	background-color: #C89D7C;
+	opacity: 0.8;
+	border-radius: 8px;
+}
+
+.checkout-row{
+	height: 50vh;
+	position: relative;
+}
+
+.checkout {
+	background-color: #2ecc71;
+	border: none;
+	outline: none;
+	font-size: 1.4rem;
+	width: 80px;
+	height: 30px;
+	border-radius: 24px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+
+
+
+
 
 
 
