@@ -379,6 +379,124 @@ nav{
 }
 
 
+/* message */
+
+.message {
+	height: 80vh;
+	display: flex;
+	align-items: end;
+}
+
+.message input,.message svg path,.message svg{
+	background-color: transparent;
+	border: none;
+	outline: none;
+	offset: none;
+
+}
+
+.message svg {
+	fill:  #00008B;
+	opacity: 0.8;
+	margin: 0;
+	vertical-align: unset;
+}
+
+.message svg path{
+	padding-top: 1px;
+}
+
+.message input::placeholder,
+.message input:focus,
+.message input:enabled{
+	font-size: 1.6rem;
+	color: black;
+
+}
+
+.message input{
+	width: 97%;
+	height: 30px;
+
+}
+
+
+
+.messaging-box{
+	background-color: #d3d3d3;
+	opacity: 0.6;
+	width: 80%;
+	border-radius: 12px;
+}
+
+/* profile */
+.profile-img img{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+}
+
+
+.profile-info {
+	font-size: 1.2rem;
+}
+
+.profile-info input{
+	border: 1px solid white;
+	padding-left: 5px;
+	font-size: 1.2rem;
+}
+
+.address{
+	font-size: 1.4rem;
+}
+
+textarea, textarea:focus{
+	resize: none !important;
+	font-size: 1.2rem;
+	border: 1px solid white;
+}
+
+
+.phone {
+	font-size: 1.4rem;
+}
+
+.phone input{
+	width: 30%;
+	border-radius: 0px;
+	border: 1px solid white;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+.save {
+	height: 20vh;
+	display: flex;
+	align-items: end;
+}
+
+.save button{
+	background-color: #39FF14;
+	border: none;
+	outline: none;
+	padding: 6px;
+	font-size: 1.4rem;
+	border-radius: 12px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
