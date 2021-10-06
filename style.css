@@ -490,14 +490,76 @@ input::-webkit-inner-spin-button {
 }
 
 
+/* seller */
+
+/* upload */
+.upload{
+	width: 50% !important;
+	margin: auto;
+}
+
+.upload input{
+	background-color: grey;
+
+}
+
+.upload a{
+}
+
+.upload button{
+	border: none;
+	border: 1px solid white;
+	margin: ;
+	padding: 0px 10px 0px 10px;
+	height: 100%;
+}
+
+/* edit */
+.edit .edit-img img{
+	width: 200px;
+	height: 200px;
+}
+
+.edit .edit-img-upload input{
+	border: 1px solid white;
+	padding: 10px;
+	margin: 70px 0 10px 50px;
+	font-size: 1.4rem;
+}
+
+.edit-description input::placeholder,
+.edit-description input:focus,
+.edit-description input
+{
+	font-size: 1.4rem;
+	padding-left: 2px;
+	outline: none;
+	offset: none;
+	border-color: white !important;
+	width: 40%;
+}
 
 
+.edit-price input::placeholder,
+.edit-price input:focus,
+.edit-price input{
+	font-size: 1.4rem;
+	padding-left: 2px;
+	outline: none;
+	offset: none;
+	border-color: white !important;
+	width: 40%;
+}
 
 
-
-
-
-
+.edit-save button{
+	background-color: #39FF14;
+	border: none;
+	outline: none;
+	padding: 0px 10px 0px 10px;
+	font-size: 1.4rem;
+	border-radius: 12px;
+}
 
 
 
